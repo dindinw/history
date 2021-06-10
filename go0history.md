@@ -39,11 +39,11 @@
 | go1 (2012.03.28)      | ||
 
 
-- Some Note from `How Go was made` (2015)
- - https://talks.golang.org/2015/how-go-was-made.slide#9
- - by Andrew Gerrand, (GopherCon15 Closing Keynote, 9 July 2015)
-      1. 777ee 2008 July
-       - 777ee7163bba96f2c9b3dfe135d8ad4ab837c062 2008-07-21 16:18:04 -0700 Rob Pike  map delete
+- Some go0 note extracted from `How Go was made` (2015)
+  + https://talks.golang.org/2015/how-go-was-made.slide#9
+    - by Andrew Gerrand, (GopherCon15 Closing Keynote, 9 July 2015)
+    - 1. last svn 777ee (July 2008)
+      - https://github.com/golang/go/tree/777ee7163bba96f2c9b3dfe135d8ad4ab837c062 (rob, Jul 21, 2008 )
       ```
       Subversion was the project's first version control system. (no code review!)
       The trio made 400 commits to Subversion.
@@ -55,7 +55,7 @@
       - a few packages (fmt, rand, and math),
       - some test programs.
       ```
-      2. perforce, 2008 Aug/Sep
+    - 2. perforce (Aug/Sep 2008)
       ```
       In July 2008 the project migrated from Subversion to Perforce,
 
@@ -67,9 +67,9 @@
       Ian Lance Taylor joined in September,
       ~20 other Googlers got involved in their 20% time.
       ```
-      3. 10 November 2009: Go was released. (78c47c3)
+    -  3. 10 November 2009: Go was released. (78c47c3)
+      - https://github.com/golang/go/tree/78c47c36b2984058c1bec0bd72e0b127b24fcd44 (rsc, Nov 10, 2009)
   
-
 - Go0 Specs
   + [design/go0spec0](https://github.com/golang/go/blob/e6626dafa8de8a0efae351e85cf96f0c683e0a4f/doc/go_lang.txt) The Go Programming Language. Language Specification (March 7, 2008) intial version. add `iota`. 
   + [design/go0spec1](https://github.com/golang/go/blob/cb87526ce3531557ccf69969de4c8018956b10b5/doc/go_lang.txt) The Go Programming Language. Language Specification (March 28, 2008) add `select`. 
